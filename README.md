@@ -45,4 +45,9 @@ Verify using<br/>
 <b>ng build</b>
 - Angularjs server application<br/>
 <b>ng server (defaulty runs in port 4200)</b>
+- Angularjs run application with browser<br/>
+<b>ng server -o</b>
+- Angularjs install all the dependencies<br/>
+<b>npm install --save-dev</b>
+
 
