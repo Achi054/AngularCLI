@@ -17,7 +17,7 @@ Verify using<br/>
 - Create New angularjs app <br/>
 <b>ng new app-name</b> 
 - Create new angularjs app to show all the files but not create them<br/>
-<b>ng new app-name --dry-run</b>
+<b>ng new app-name --dry-run or ng new app-name -d</b>
 - Create new angularjs app with skipping install of npm modules<br/>
 <b>ng new app-name --skip-install</b>
 - Help to know all the app creation options<br/>
