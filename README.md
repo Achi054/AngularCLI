@@ -54,4 +54,30 @@ Verify using<br/>
 - Angularjs install all the dependencies<br/>
 <b>npm install --save-dev</b>
 
+# Blueprints
+Angular CLI uses blueprints to generate code.
+They define templates for Components, Services, NgModules etc.<br/>
+Syntax: <b>ng generate \<blueprint\> \<options\></b><br/>
+Snippets:
+- Create component <br/>
+<b>ng generate component customer or ng g c customer</b><br/>
+- Create component without its own folder<br/>
+<b>ng generate component customer --flat or ng g c customer --flat</b><br/>
+- Create service <br/>
+<b>ng generate service customer-service</b><br/>
+- Create class<br/>
+<b>ng generate class customer</b><br/><br/>
+- Create directive<br/>
+<b>ng generate directive customer-details or ng g d customer-details</b><br/>
+this would create a directive in the root folder.
+- Create directive within its folder<br/>
+<b>ng generate directive customer-detailsor --flat false or ng g d customer-details --flat false</b>
+<br/><br/>
+- Create service <br/>
+<b>ng generate service customer-data or ng g s customer-data</b><br/>
+this would create a directive in the root folder.
+- Create service with its folder<br/>
+<b>ng generate service customer-data --flat false or ng g s customer-data --flate false</b><br/>
+this would create a directive in the root folder.
+
 
