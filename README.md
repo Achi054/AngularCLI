@@ -37,6 +37,10 @@ Verify using<br/>
 <b>ng --help</b>
 - Angularjs linting<br/>
 <b>ng lint</b>
+- Angularjs linting with stylish error details<br/>
+<b>ng lint app-name --format stylish</b>
+- Angularjs linting fix the lint issue<br/>
+<b>ng lint app-name --fix</b>
 - Angularjs unit tests<br/>
 <b>ng test</b>
 - Angularjs end-to-end testing<br/>
