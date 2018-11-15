@@ -22,7 +22,15 @@ Verify using<br/>
 <b>ng new app-name --skip-install</b>
 - Help to know all the app creation options<br/>
 <b>ng new --help</b>
-<br/>
+- Create new application with adding a prefix(default name for the app.component selector)<br/>
+<b>ng new app-name --prefix ang --skip-install or ng new app-name -p ang --skip-install</b>
+- Create new application with out having tests<br/>
+<b>ng new app-name --skip-tests -d</b>
+- Create new application with default style to be sass/less<br/>
+<b>ng new app-name --style scss or ng new app-name --style less</b>
+- Create new application with routing module<br/>
+<b>ng new app-name --routing --skip-install</b>
+<br/><br/>
 - Angularjs component documentation <br/>
 <b>ng doc component</b>
 - Angularjs help <br/>
