@@ -79,5 +79,11 @@ this would create a directive in the root folder.
 - Create service with its folder<br/>
 <b>ng generate service customer-data --flat false or ng g s customer-data --flate false</b><br/>
 this would create a directive in the root folder.
-
+<br/><br/>
+- Create typescript class<br/>
+<b>ng generate class models/customer or ng g cl models/customer</b>
+- Create typescript interface<br/>
+<b>ng generate interface models/person or ng g i models/person</b>
+- Create typescript enum<br/>
+<b>ng generate enum models/gender or ng g e models/gender</b>
 
