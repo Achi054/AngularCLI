@@ -95,3 +95,6 @@ this would create a directive in the root folder.
 <b>ng generate module login --spec false or ng g m login --spec false</b>
 - Create new module with reference to another module<br/>
 <b>ng generate module login --module app.module or ng g m login -m app.module</b>
+<br/><br/>
+- Create app with routing module<br/>
+<b>ng new \<app-name\> --routing</b>
