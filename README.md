@@ -86,4 +86,12 @@ this would create a directive in the root folder.
 <b>ng generate interface models/person or ng g i models/person</b>
 - Create typescript enum<br/>
 <b>ng generate enum models/gender or ng g e models/gender</b>
-
+- Create typescript pipes<br/>
+<b>ng generate pipes shared/init-caps.pipe or ng g p shared/init-caps.pipe</b>
+<br/><br/>
+- Create new module<br/>
+<b>ng generate module login or ng g m login</b>
+- Create new module without spec<br/>
+<b>ng generate module login --spec false or ng g m login --spec false</b>
+- Create new module with reference to another module<br/>
+<b>ng generate module login --module app.module or ng g m login -m app.module</b>
