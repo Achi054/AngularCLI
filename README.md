@@ -98,3 +98,5 @@ this would create a directive in the root folder.
 <br/><br/>
 - Create app with routing module<br/>
 <b>ng new \<app-name\> --routing</b>
+- Create app with routing and register in a specific module <br/>
+<b>ng generate module \<module-name\> --routing --module \<module-name-to-reference\> or ng g m \<module-name\> --routing -m \<module-name-to-reference\></b>
