@@ -11,6 +11,10 @@ import { AdminComponent } from './admin.component';
     CommonModule,
     AdminRoutingModule
   ],
-  declarations: [EmailComponent, UserComponent, AdminComponent]
+  declarations: [
+    EmailComponent,
+    UserComponent,
+    AdminComponent
+  ]
 })
 export class AdminModule { }

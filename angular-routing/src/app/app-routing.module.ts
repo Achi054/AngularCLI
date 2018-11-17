@@ -7,8 +7,7 @@ import { AdminComponent } from "./admin/admin.component";
 const routes: Routes = [
   { path: "", pathMatch: "full", redirectTo: "dashboard" },
   { path: "dashboard", component: DashboardComponent },
-  { path: "customer", component: CustomerComponent },
-  { path: "admin", component: AdminComponent }
+  { path: "customer", component: CustomerComponent }
 ];
 
 @NgModule({
