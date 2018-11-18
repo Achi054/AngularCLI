@@ -118,4 +118,15 @@ Include the line '"stats": "npx webpack-bundle-analyzer dist/angular-routing/sta
 - Serve angular app on a different port<br/>
 <b>ng serve -o --port 8081</b>
 - Serve angular app in prod environment<br/>
-<b>ng serve -o --prod</b>
+<b>ng serve -o --prod</b><br/><br/>
+
+## Adding new angular packages
+- Add angular-material<br/>
+<b>ng add @angular/material</b>
+- Creating angular nav bar with angular-material<br/>
+<b>ng g @angular/material:material-nav --name nav</b>
+- Creating angular dashboard with angular-material<br/>
+<b>ng g @angular/material:material-dashboard --name dashboard</b>
+- Creating angular table with angular-material<br/>
+<b>ng g @angular/material:material-table --name customer-list</b>
+
