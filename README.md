@@ -100,3 +100,22 @@ this would create a directive in the root folder.
 <b>ng new \<app-name\> --routing</b>
 - Create app with routing and register in a specific module <br/>
 <b>ng generate module \<module-name\> --routing --module \<module-name-to-reference\> or ng g m \<module-name\> --routing -m \<module-name-to-reference\></b>
+<br/><br/>
+## Building and serving
+- Build angular app<br/>
+<b>ng build or ng b</b>
+- Build angular app for PROD<br/>
+<b>ng build --prod or ng b -prod</b>
+- Build with stats<br/>
+Install webpack analyzer
+<b>npm install webpack-bundle-analyzer --save-dev</b>
+<br/><b>ng build --stat-json or ng b --stat-json</b><br/>
+Include the line '"stats": "npx webpack-bundle-analyzer dist/angular-routing/stats.json"' in the scripts section<br/>
+<b>npm run stats</b>
+<br/><br/>
+- Serve angular app<br/>
+<b>ng serve</b>
+- Serve angular app on a different port<br/>
+<b>ng serve -o --port 8081</b>
+- Serve angular app in prod environment<br/>
+<b>ng serve -o --prod</b>
