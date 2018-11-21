@@ -6,10 +6,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./admin.component.css']
 })
 export class AdminComponent implements OnInit {
+  users: any[];
+  hasPermission = false;
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
+    this.getUsers()
+      .then(users => (this.users = users))
+      .catch(e => console.log(e.message));
   }
 
+  async getUsers() {
+    return [
+      {
+        name: 'Sujith',
+        email: 'sujithacharya@mail.com'
+      },
+      {
+        name: 'Sunith',
+        email: 'sunithacharya@mail.com'
+      }
+    ];
+  }
 }
