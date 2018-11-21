@@ -109,7 +109,7 @@ this would create a directive in the root folder.
 - Build with stats<br/>
 Install webpack analyzer
 <b>npm install webpack-bundle-analyzer --save-dev</b>
-<br/><b>ng build --stat-json or ng b --stat-json</b><br/>
+<br/><b>ng build --stat-json or ng b --stats-json</b><br/>
 Include the line '"stats": "npx webpack-bundle-analyzer dist/angular-routing/stats.json"' in the scripts section<br/>
 <b>npm run stats</b>
 <br/><br/>
