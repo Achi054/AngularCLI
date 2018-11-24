@@ -275,3 +275,28 @@ To update<br/>
 <b>ng new home</b>
 - Create angular app within the existing app<br/>
 <b>ng generate application help-tool</b>
+- Building application <br/>
+<b>ng build \<project name\></b><br/>
+To build default app<br/>
+<b>ng build</b><br/>
+- Building library<br/>
+<b>ng generate library \<library name\></b><br/>
+<b>ng build \<library name\></b><br/>
+- How angular finds libraries<br/>
+Looks inside tsconfig path and then in the node_modules folder.<br/>
+- Must build the library first and then import in application<br/>
+- Packaging library to npm<br/>
+<b>ng build \<library name\> --prod</b><br/>
+<b>cd dist/\<library name\></b><br/>
+<b>npm publish</b>
+- Creating a demo library 'Logger'<br/>
+Create library 'Logger'<br/>
+<b>ng generate library Logger</b><br/>
+Create logger service<br/>
+<b>ng g s log --project logger or ng generate service log --project logger</b><br/>
+Build logger in prod mode<br/>
+<b>ng build logger --prod</b><br/>
+Add import in the public_api.ts file under projects/\<project name\>/src
+
+
+
