@@ -269,3 +269,9 @@ To update<br/>
 <b>ng install @angular/cli</b><br/>
 <b>ng update @angular/cli</b><br/>
 <b>ng update @angular/core</b><br/>
+
+## Create workspace
+- Create angular app<br/>
+<b>ng new home</b>
+- Create angular app within the existing app<br/>
+<b>ng generate application help-tool</b>
