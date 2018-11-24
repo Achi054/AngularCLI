@@ -257,3 +257,15 @@ Snippets:
 - Run end-to-end tests<br/>
 
   <b>ng e2e</b><br/>
+
+## Update Angular 
+- Update Angular/CLI<br/>
+To check if update required<br/>
+<b>ng update</b><br>
+To update all<br/>
+<b>ng update all</b>
+To update<br/>
+<b>ng install -g @angular/cli</b><br/>
+<b>ng install @angular/cli</b><br/>
+<b>ng update @angular/cli</b><br/>
+<b>ng update @angular/core</b><br/>
